@@ -69,9 +69,10 @@ html {
 }
 
 body {
-	background-image: url(../img/body-background.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	background: url(../img/body-background.jpg) no-repeat center center/cover fixed;`
+	/*background-image: url(../img/body-background.jpg);*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;*/
 }
 
 .clearfix:after {
@@ -129,29 +130,32 @@ header input {
 	margin-top: 20px;
 	height: 160px;
 	position: relative;
+	margin-left: 2%;
 }
 
+
 .nav-sub-section1 {
-background-image: url(../img/icons/action-report-new.png);
-background-size: 120px;
-background-repeat:no-repeat;
-background-position: 50% 80px;
+	background-image: url(../img/icons/action-report-new.png);
+	background-size: 120px;
+	background-repeat:no-repeat;
+	background-position: 50% 80px;
+	margin-left: 0;
 }
 
 .nav-sub-section2 {
-margin-right: 2%;
-margin-left: 2%;
-background-image: url(../img/icons/action-report-top.png);
-background-size: 120px;
-background-repeat:no-repeat;
-background-position: 50% 80px;
+	/*margin-right: 2%;*/
+	/*margin-left: 2%;*/
+	background-image: url(../img/icons/action-report-top.png);
+	background-size: 120px;
+	background-repeat:no-repeat;
+	background-position: 50% 80px;
 }
 
 .nav-sub-section3 {
-background-image: url(../img/icons/actions-help.png);
-background-size: 120px;
-background-repeat:no-repeat;
-background-position: 50% 80px;
+	background-image: url(../img/icons/actions-help.png);
+	background-size: 120px;
+	background-repeat:no-repeat;
+	background-position: 50% 80px;
 }
 
 .nav-section > p {
@@ -164,8 +168,7 @@ background-position: 50% 80px;
 .menu {
 	position: absolute;
 	bottom: 0;
-	left: 0;
-	right: 0;
+	width: 100%;
 	top: 130px;
 	background-color: #eee;
 }
@@ -179,18 +182,17 @@ background-position: 50% 80px;
 
 .action-list {
 	position: absolute;
-	  top: 30px;
-	  left: 10;
-	  width: 100%;
-	  background-color: #fff;
-	  display: none;
-	  list-style-type: none;
-	  margin:0;
-	  padding: 0 0 0 10px;
-	  line-height: 30px;
-	  vertical-align: middle;
-	  z-index: 2;
-
+	top: 30px;
+	left: 10;
+	width: 100%;
+	background-color: #fff;
+	display: none;
+	list-style-type: none;
+	margin:0;
+	padding: 0 0 0 10px;
+	line-height: 30px;
+	vertical-align: middle;
+	z-index: 2;
 }
 
 .nav-section:hover .action-list {
